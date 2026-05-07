@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(140, 138, 125);
+}
+.container {
+  width: 360px;
+  height: 592px;
+  border: 1px solid black;
+  margin-top: 10px;
+  border-radius: 20px;
+  background-color: rgb(68, 63, 63);
+}
+.inp input {
+  width: 335px;
+  height: 140px;
+  margin-top: 15px;
+  margin-left: 11px;
+  border-radius: 15px;
+  background-color: beige;
+  box-shadow: 1px 1px 2px 0px black;
+}
+.forbut {
+  width: 360px;
+  height: 420px;
+  margin-top: 35px;
+  margin-left: 3px;
+  border-radius: 15px;
+}
+.buttonins {
+  display: flex;
+  justify-content: space-around;
+  width: 80px;
+  height: 70px;
+  padding: 30px;
+  display: inline-block;
+  padding: 10px;
+  margin-left: 4px;
+  padding-bottom: 3px;
+  margin-bottom: 10px;
+  border-radius: 45px;
+  font-weight: bolder;
+  font-size: 23px;
+  transition: transform 0.5s ease;
+  border: 1px solid black;
+  user-select: none;
+}
+
+#equal {
+  width: 251px;
+  height: 67px;
+  font-weight: bolder;
+  color: rgb(221, 211, 211);
+  border-radius: 25px;
+  font-size: xx-large;
+  background-color: rgb(100, 98, 98);
+  margin-left: 7px;
+  box-shadow: 0.5px 0.5px 1px 0px white;
+}
+
+.setbutton :hover {
+  background-color: rgba(213, 148, 49, 0.638);
+  border-radius: 45px;
+  transform: scale(1.05);
+  border: 1 solid black;
+}
