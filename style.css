@@ -9,15 +9,19 @@ body {
   align-items: center;
   background-color: rgb(140, 138, 125);
 }
+
+.mydisplay {
+  color: greenyellow;
+}
 .container {
   width: 360px;
-  height: 592px;
+  height: 613px;
   border: 1px solid black;
   margin-top: 10px;
   border-radius: 20px;
   background-color: rgb(68, 63, 63);
 }
-.inp input {
+textarea {
   width: 335px;
   height: 140px;
   margin-top: 15px;
@@ -30,6 +34,7 @@ body {
 }
 .forbut {
   width: 360px;
+  user-select: none;
   height: 420px;
   margin-top: 35px;
   margin-left: 3px;
@@ -71,4 +76,7 @@ body {
   border-radius: 45px;
   transform: scale(1.05);
   border: 1 solid black;
+}
+.buttonins:active {
+  transform: scale(0.78);
 }
