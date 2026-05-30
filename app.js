@@ -1,11 +1,12 @@
 let display = document.querySelector("#display");
 let btn = document.querySelectorAll("button");
+let history = document.querySelector("#history");
 
 btn.forEach((btn) => {
     btn.addEventListener("click", function (detail) {
         if (detail.target.value === "=") {
             let save = eval(display.value);
-            display.value = display.value + "\n" + save
+            display.value = display.value + "\n" + save;
             display.value.classList.add("mydisplay");
         } else if (detail.target.value === "AC") {
             display.value = "";
